@@ -1,14 +1,6 @@
 import { useState, useEffect, useReducer } from "react";
 import "./App.css";
 
-/*
-1 - generate two new random numbers
-2 - Add the two random numbers together to get the sum
-3 - Compare the sum to the user input
-4 - If the sum is equal to the user input, display "You guessed right!"
-5 - If the sum is not equal to the user input, display "Try Again :("
-*/
-
 const Form = ({generate, guess, onChange, values}) => {
   return(
     <div style={{ width: "50%" }}>
